@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock & EDM Festival</title>
+    <link rel="stylesheet" href="build/css/app.css">
+</head>
+<body>
+    <header class="header">
+        <div class="contenedor contenido-header">
+            <h1>Rock & EDM Festival</h1>
+
+            <nav class="navegacion-principal">
+                <a href="#lineup">Line Up</a>
+                <a href="#galeria">Galería</a>
+                <a href="#boletos">Boletos</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="video">
+        <div class="overlay">
+            <div class="contenedor contenido-video">   
+                <h2>
+                    Rock & EDM Festival
+                    <span>Octubre 2021 Rosario, Argentina</span>
+                </h2>
+                 
+
+            </div>
+        </div>
+        <video controls autoplay muted loop>
+            <source src="video/concierto.mp4" type="video/mp4">
+            <source src="video/concierto.ogg" type="video/ogg">
+            <source src="video/concierto.webm" type="video/webm">
+        </video>
+    </div>
+
+    <div class="contenedor sobre-festival">
+        <div class="imagen">
+            <img src="src/img/imagen_vocalista.jpg" alt="imagen vocalista">
+        </div>
+        <div class="contenido-festival">
+            <h2>Rock & EDM Festival</h2>
+            <p class="fecha">Octubre 2021 Rosario, Argentina</p>
+            <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est sequi ut voluptatem quae eum harum temporibus quos fugiat, ipsam magni suscipit voluptates dolorem molestiae, error, itaque fugit officiis numquam possimus!</p>
+        </div>
+        
+    </div>
+
+    <section id="lineup" class="lineup">
+        <h3>Line Up</h3>
+        <p class="dia">Viernes 22</p>
+
+        <div class="escenarios-contenedor contenedor">
+            <div class="escenario rock bg-amarillo">
+                <p class="nombre-escenario">Escenario Rock</p>
+                <ul class="calendario">
+                    <li>24:00 | <span>Metallica</span></li>
+                    <li>22:00 | <span>Pearl Jam</span></li>
+                    <li>20:00 | <span>Korn</span></li>
+                    <li>19:00 | <span>Muse</span></li>
+                    <li>18:00 | <span>Breaking Benjamin</span></li>
+                    <li>17:00 | <span>30 Seconds To Mars</span></li>
+                </ul>
+            </div>
+
+            <div class="escenario edm bg-verde">
+                <p class="nombre-escenario">Escenario EDM</p>
+                <ul class="calendario">
+                    <li>24:00 | <span>Deadmau5</span></li>
+                    <li>22:00 | <span>Tiësto</span></li>
+                    <li>20:00 | <span>Hardwell</span></li>
+                    <li>19:00 | <span>Dash Berlin</span></li>
+                    <li>18:00 | <span>Fedde Legrand</span></li>
+                    <li>17:00 | <span>Audien</span></li>
+                </ul>
+            </div>
+        </div>
+
+        <p class="dia">Sabado 23</p>
+
+        <div class="escenarios-contenedor contenedor">
+            <div class="escenario rock bg-verde">
+                <p class="nombre-escenario">Escenario Rock</p>
+                <ul class="calendario">
+                    <li>24:00 | <span>Greta Van Fleet</span></li>
+                    <li>22:00 | <span>Maroon 5</span></li>
+                    <li>20:00 | <span>Red Hot Chili Peppers</span></li>
+                    <li>19:00 | <span>Artic Monkeys</span></li>
+                    <li>18:00 | <span>Rage Against the Machine</span></li>
+                    <li>17:00 | <span>The Kooks</span></li>
+                </ul>
+            </div>
+
+            <div class="escenario edm bg-amarillo">
+                <p class="nombre-escenario">Escenario EDM</p>
+                <ul class="calendario">
+                    <li>24:00 | <span>Hernan Cattaneo</span></li>
+                    <li>22:00 | <span>Kill the Noise</span></li>
+                    <li>20:00 | <span>Sasha</span></li>
+                    <li>19:00 | <span>Steve Angello</span></li>
+                    <li>18:00 | <span>David Guetta</span></li>
+                    <li>17:00 | <span>Skrillex</span></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="galeria" class="galeria">
+        <h3>Galería</h3>
+        <ul class="galeria-imagenes contenedor">
+        </ul>
+    </section>
+
+    <section id="boletos" class="boletos bg-verde">
+        <h3>Boletos</h3>
+        <div class="contenedor-boletos contenedor">
+            <div class="basico plan">
+                <p>Pase 1 Día</p>
+                <ul class="tabla">
+                    <li class="incluye">INCLUYE</li>
+                    <li>Acceso a todos los escenarios</li>
+                    <li>Comida y bebida</li>
+                    <li class="precio">$100</li>
+                </ul>
+            </div>
+            <div class="premium plan">
+                <p>Pase 2 Días</p>
+                <ul class="tabla">
+                    <li class="incluye">INCLUYE</li>
+                    <li>Acceso a todos los escenarios</li>
+                    <li>Comida y bebida</li>
+                    <li>Remera del evento</li>
+                    <li>Acceso VIP</li>
+                    <li class="precio">$180</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    <script src="build/js/bundle.js"></script>
+</body>
+<footer class="footer">
+    <p>Rock & EDM Festival. Todos los Derechos Reservados</p>
+</footer>
+</html>
